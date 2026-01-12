@@ -1,12 +1,30 @@
-# React + Vite
+# MovieSearch Web Application 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MovieSearch** is a React-based web application that allows users to search for movies and view detailed information using the **OMDb API**. It provides a clean and responsive interface to explore movie data in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
+- Search for movies by title
+- View movie details: title, year, genre, plot, actors, ratings, and poster
+- Dynamic, real-time search with API integration
+- Responsive design for desktop and mobile
+- Error handling for movies not found
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+- **Frontend:** React.js, HTML5, CSS3, JavaScript
+- **API:** OMDb REST API ([http://www.omdbapi.com](http://www.omdbapi.com))
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Styling & UI:** Tailwind CSS / Bootstrap (or your preferred library)
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Installation
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AniketItkhede/MovieSearch--Api_Fetching--OMDb
+.git
